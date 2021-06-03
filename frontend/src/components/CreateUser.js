@@ -43,13 +43,13 @@ export default class CreateUser extends Component {
       <div className="row">
         <div className="col-md-4">
           <div className="card card-body">
-            <h3>Create new user</h3>
+            <h3 className="mb-3">Create new user</h3>
             <form onSubmit={this.onSubmit}>
               <div className="form-group">
                 <input
                   type="text"
                   value={this.state.username}
-                  className="form-control"
+                  className="form-control mb-3"
                   onChange={this.onChangeUsername}
                 />
               </div>
